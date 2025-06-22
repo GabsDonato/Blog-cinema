@@ -225,7 +225,7 @@
                         <li class="list-group-item">Item 3</li>
                     </ul>
                     <div class="card-body">
-                         <a href="#" class="card-link">Acessar</a>
+                         <a href="#" class="card-link" data-bs-toggle="modal" data-bs-target="#siteModal">Acessar</a>
                         <a href="#" class="card-link">Mais informações</a>
                     </div>
                     <div class="card-footer">
@@ -236,6 +236,30 @@
         </div>
 
      </div>
+          <!--Modal--> 
+            <div class="modal fade" id="siteModal" tabindex="-1" aria-labelledby="siteModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="siteModalLabel">Título do Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar alterações</button>
+                </div>
+            </div>
+         </div>
+     </div>
+
+
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
