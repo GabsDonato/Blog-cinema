@@ -3,8 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Curso bootstrap</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Blog cinema</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
 
@@ -12,7 +17,7 @@
 
         <div class="container">
 
-        <a class="navbar-brand h1 mb-0" href="#">Curso</a>
+        <a class="navbar-brand h1 mb-0" href="#">Zoom no Filme</a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSite" aria-controls="navbarSite" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,13 +31,13 @@
                     <a class="nav-link" href="#">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Perfil</a>
+                    <a class="nav-link" href="#">Críticas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#">Lançamentos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Depoimentos</a>
+                    <a class="nav-link" href="#">Trailers</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contatos</a>
@@ -114,13 +119,23 @@
   height: 300px;
   object-fit: cover;
 }
+
+#nav-pills-content h5{
+    color: #6c757d;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+
 </style>
 
 
      <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4 my-5">Título da Página</h1>
+                <h1 class="display-4 my-5"><i class="fa-solid fa-comments text-primary me-2"></i>Críticas</h1>
                 <p class="lead  mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
@@ -166,6 +181,7 @@
         </div>
 
         <div class="row mb-5">
+            <h1 class="display-4 my-5 text-center"><i class="fa-solid fa-rocket text-primary me-2"></i>Lançamentos</h1>
             <div class="col-sm-4">
                 <div class="card">
                     <img src="imgs/Img-card-1.jpg" class="card-img-top" alt="Imagem do Card 1">
@@ -237,80 +253,150 @@
 
      </div>
 
-                    <div class="jumbotron jumbotron-fluid bg-light text-center py-5">
-                    <div class="container">
-                        <div class="col-12 text-center">
-                        <h1 class="display-4">Título do Jumbotron</h1>
-                        <p class="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        </div>
-                        <hr>
-                        
-                        <div class="row justify-content-center mt-4">
-                        <div class="col-12 col-md-8">
-                            <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link active" id="nav-pills-01" data-bs-toggle="pill" href="#nav-item-01" role="tab">Tab 1</a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="nav-pills-02" data-bs-toggle="pill" href="#nav-item-02" role="tab">Tab 2</a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="nav-pills-03" data-bs-toggle="pill" href="#nav-item-03" role="tab">Tab 3</a>
-                            </li>
-                            </ul>
-
-                            <div class="tab-content mt-3" id="nav-pills-content">
-                                <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel" aria-labelledby="nav-pills-01">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="ratio ratio-16x9 mb-3">
-                                                <iframe  src="https://www.youtube.com/embed/9Pum3xDWnvI?si=Hr3QUcOxWDR0hkTc" allowfullscreen></iframe>
-
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis tortor ut est porttitor tincidunt et eget lorem. </p>
-                                        </div>
-
-                                    </div>
-
+                    <!-- Container dos trailers -->
+                            <div class="bg-light text-center py-5">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                <div class="col-12 text-center">
+                                    <h1 class="display-4"><i class="fa-solid fa-film text-primary me-2"></i>Trailers</h1>
+                                    <p class="lead">Todas as novidades e lançamentos você encontra aqui.</p>
                                 </div>
-                                <div class="tab-pane fade" id="nav-item-02" role="tabpanel" aria-labelledby="nav-pills-02">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="ratio ratio-16x9 mb-3">
-                                                <iframe src="https://www.youtube.com/embed/9Pum3xDWnvI?si=Hr3QUcOxWDR0hkTc" allowfullscreen></iframe>
-
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis tortor ut est porttitor tincidunt et eget lorem. </p>
-                                        </div>
-
-                                    </div>
-
                                 </div>
-                                <div class="tab-pane fade" id="nav-item-03" role="tabpanel" aria-labelledby="nav-pills-03">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="ratio ratio-16x9 mb-3">
-                                                <iframe  src="https://www.youtube.com/embed/9Pum3xDWnvI?si=Hr3QUcOxWDR0hkTc" allowfullscreen></iframe>
+                                <hr>
 
+                                <div class="row justify-content-center mt-4">
+                                <div class="col-12 col-md-8">
+                                    <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link active" id="nav-pills-01" data-bs-toggle="pill" href="#nav-item-01" role="tab">Terror</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="nav-pills-02" data-bs-toggle="pill" href="#nav-item-02" role="tab">Ação</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="nav-pills-03" data-bs-toggle="pill" href="#nav-item-03" role="tab">Infantil</a>
+                                    </li>
+                                    </ul>
+
+                                    <div class="tab-content mt-3" id="nav-pills-content">
+                                    <!-- Aba Terror -->
+                                    <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                                        <div class="row mb-4">
+                                        <div class="col-12 col-md-6">
+                                            <div class="ratio ratio-16x9 mb-3">
+                                            <iframe src="https://www.youtube.com/embed/kX8yjM09qLQ?si=tFeWF4IRiG76CUVs" allowfullscreen></iframe>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis tortor ut est porttitor tincidunt et eget lorem. </p>
+                                        <div class="col-12 col-md-6">
+                                            <h4>Estreia:</h4>
+                                            <h5>26 de Junho de 2025</h5>
+                                            <h4>Sinopse</h4>
+                                            <p class="p-2">
+                                            Dois anos após MEGAN, uma maravilha da inteligência artificial, sair do controle, iniciar uma matança (impecavelmente coreografada) e ser destruída, sua criadora Gemma tornou-se uma renomada autora e defensora da supervisão governamental da IA...
+                                            </p>
                                         </div>
-
+                                        </div>
                                     </div>
 
+                                    <!-- Aba Ação -->
+                                    <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                                        <div class="row mb-4">
+                                        <div class="col-12 col-md-6">
+                                            <div class="ratio ratio-16x9 mb-3">
+                                            <iframe src="https://www.youtube.com/embed/jan5CFWs9ic?si=fGFuSTKo9XcX6C5_" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                           <h4>Estreia:</h4>
+                                            <h5>3 de Julho de 2025</h5>
+                                            <h4>Sinopse</h4>
+                                            <p class="p-2">
+                                            A história de Jurassic World: Recomeço segue os membros de uma equipe de recuperação, liderados por Scarlett Johansson, Mahershala Ali e Jonathan Bailey, enquanto se aventuram em uma ilha perto do equador que já foi o lar do primeiro laboratório de pesquisa de Jurassic Park.
+                                            </p>
+                                        </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Aba Infantil -->
+                                    <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+                                        <div class="row mb-4">
+                                        <div class="col-12 col-md-6">
+                                            <div class="ratio ratio-16x9 mb-3">
+                                            <iframe src="https://www.youtube.com/embed/YWoIIeQECXg?si=IIoAPZkBVGDN_8gR" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <h4>Estreia:</h4>
+                                            <h5>27 de novembro de 2025</h5>
+                                            <h4>Sinopse</h4>
+                                            <p class="p-2">
+                                            Os heróis e policiais novatos Judy Hopps e Nick Wilde estão de volta para mais uma aventura extravagante pela grande metrópole animal. 
+                                            Em Zootopia 2, Judy e Nick precisarão formar uma parceria inusitada com um recém-chegado à cidade: o misterioso réptil Gary De Snake.
+                                             Para tentar desvendar os mistérios do caso envolvendo a víbora, Judy e Nick devem desvendar novas partes da cidade, sendo testados o 
+                                             tempo todo.
+                                            </p>                                        
+                                        </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+                                </div>
                                 </div>
                             </div>
+                            </div>
+
+
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center my-5">
+                                <h1 class="display-4"><i class="fa-solid fa-envelope-circle-check text-primary me-2"></i>Entre em contato</h1>
+                                 <h6 class="card-subtitle mb-2 text-body-secondary ms-5">Sugestões e Feedback</h6>
+                            </div>
+
                         </div>
+
+                        <div class="row justify-content-center mb-5">
+                            <div class="col-sm-12 col-md-10 col-lg-8">
+                                <form>
+                                    <div class="form-row ">
+                                        <div class="form-group col-sm-6 mb-3">
+                                            <label for="inputName">Nome</label>
+                                            <input type="text" class="form-control" id="inputName" placeholder="Digite seu nome">
+                                        </div>
+
+                                        <div class="form-group col-sm-6 mb-3">
+                                            <label for="ImputSobrenome">Sobrenome</label>
+                                            <input type="text" class="form-control" id="ImputSobrenome" placeholder="Digite seu sobrenome">
+                                        </div>
+
+                                        <div class="form-group col-sm-6 mb-3">
+                                            <label for="inputEmail">E-mail</label>
+                                            <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu email">
+                                            <div id="emailHelp" class="form-text">Seu e-mail está seguro com a gente.</div>
+                                        </div>
+                                        
+                                        <div class="form-group col-sm-6 mb-3">
+                                            <label for="inputTelefone">Telefone</label>
+                                            <input type="tel" class="form-control" id="inputTelefone" placeholder="Digite seu telefone">
+                                        </div>
+                                        <div class="form-row">
+                                        <div class="form-group col-sm-12 mb-3">
+                                            <label for="inputMensagem">Mensagem</label>
+                                            <textarea class="form-control" id="inputMensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                        <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Algum problema?" data-bs-content="Entre em contato conosco através das nossas redes sociais!">Ajuda</a>
+                                        </div>
+                                    </div>
+
+                                </form>
+
+                            </div>
+
                         </div>
-                    </div>
+
                     </div>
 
 
@@ -342,5 +428,14 @@
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+        });
+  });
+</script>
+
 </body>
 </html>
