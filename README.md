@@ -1,6 +1,12 @@
-# 🎬 Zoom no Filme
+<div style="font-size: 30px; text-align: center;">
+  🎬 Zoom no Filme
+</div>
 
-Um blog de cinema responsivo e moderno, desenvolvido com foco em design e experiência do usuário, utilizando as últimas tecnologias de frontend.
+<p style="font-size: 14px;">
+  Um blog de cinema responsivo e moderno, desenvolvido com foco em design e experiência do usuário, utilizando as últimas tecnologias de frontend.
+</p>
+
+![Projeto](./imgs/ZoomCinema.png)
 
 ## 🚀 Visão Geral do Projeto
 
@@ -8,24 +14,24 @@ O "Zoom no Filme" é um blog dedicado a críticas, trailers e notícias do mundo
 
 ## ✨ Funcionalidades Principais
 
-  * **Navegação Responsiva:** Menu de navegação que se adapta a diferentes tamanhos de tela.
-  * **Carrossel de Destaques:** Seção principal com carrossel de imagens e legendas para filmes em destaque.
-  * **Seção de Críticas:** Conteúdo detalhado sobre análises de filmes, com navegação lateral (scrollspy).
-  * **Cards de Filmes TOP:** Exibição de filmes em formato de card, com informações essenciais e links para trailers e mais detalhes (modais).
-  * **Seção de Trailers por Gênero:** Abas para explorar trailers de filmes organizados por gênero (Terror, Ação, Infantil).
-  * **Formulário de Contato:** Seção para os usuários enviarem sugestões e feedback.
-  * **Rodapé Completo:** Informações de contato, links rápidos e redes sociais.
+- **Navegação Responsiva:** Menu de navegação que se adapta a diferentes tamanhos de tela.
+- **Carrossel de Destaques:** Seção principal com carrossel de imagens e legendas para filmes em destaque.
+- **Seção de Críticas:** Conteúdo detalhado sobre análises de filmes, com navegação lateral (scrollspy).
+- **Cards de Filmes TOP:** Exibição de filmes em formato de card, com informações essenciais e links para trailers e mais detalhes (modais).
+- **Seção de Trailers por Gênero:** Abas para explorar trailers de filmes organizados por gênero (Terror, Ação, Infantil).
+- **Formulário de Contato:** Seção para os usuários enviarem sugestões e feedback.
+- **Rodapé Completo:** Informações de contato, links rápidos e redes sociais.
 
 ## 🛠️ Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-  * **HTML5:** Estrutura básica da página.
-  * **CSS3:** Estilização geral do projeto, incluindo os estilos gerados pelo SASS.
-  * **Bootstrap 5:** Framework CSS para um design responsivo e componentes pré-estilizados. (Observação: O projeto foi inicialmente baseado em Bootstrap 4, mas foi atualizado para a versão 5 seguindo a documentação oficial para aproveitar os recursos mais recentes).
-  * **SASS (SCSS):** Pré-processador CSS utilizado para organizar e otimizar o desenvolvimento dos estilos personalizados do projeto. Os arquivos `.scss` são compilados para `.css`.
-  * **Font Awesome 6:** Biblioteca de ícones para adicionar elementos visuais (como os ícones de redes sociais, telefone, e-mail, etc.).
-  * **JavaScript (Bootstrap JS):** Para funcionalidades interativas como o carrossel, navegação, modais e popovers.
+- **HTML5:** Estrutura básica da página.
+- **CSS3:** Estilização geral do projeto, incluindo os estilos gerados pelo SASS.
+- **Bootstrap 5:** Framework CSS para um design responsivo e componentes pré-estilizados. (Observação: O projeto foi inicialmente baseado em Bootstrap 4, mas foi atualizado para a versão 5 seguindo a documentação oficial para aproveitar os recursos mais recentes).
+- **SASS (SCSS):** Pré-processador CSS utilizado para organizar e otimizar o desenvolvimento dos estilos personalizados do projeto. Os arquivos `.scss` são compilados para `.css`.
+- **Font Awesome 6:** Biblioteca de ícones para adicionar elementos visuais (como os ícones de redes sociais, telefone, e-mail, etc.).
+- **JavaScript (Bootstrap JS):** Para funcionalidades interativas como o carrossel, navegação, modais e popovers.
 
 ## 📦 Como Rodar o Projeto Localmente
 
@@ -35,7 +41,7 @@ Siga estas instruções para configurar e executar o projeto em sua máquina loc
 
 Certifique-se de ter o Node.js e o npm (ou Yarn) instalados em seu computador, pois o Bootstrap e o SASS geralmente são gerenciados via npm.
 
-  * [Node.js e npm](https://nodejs.org/)
+- [Node.js e npm](https://nodejs.org/)
 
 ### Instalação
 
@@ -100,4 +106,4 @@ Certifique-se de ter o Node.js e o npm (ou Yarn) instalados em seu computador, p
 
 Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para usá-lo e modificá-lo.
 
------
+---
