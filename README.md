@@ -2,7 +2,7 @@
   🎬 Zoom no Filme
 </div>
 
-<p style="font-size: 14px;">
+<p style="font-size: 16px;">
   Um blog de cinema responsivo e moderno, desenvolvido com foco em design e experiência do usuário, utilizando as últimas tecnologias de frontend.
 </p>
 
