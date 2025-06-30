@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div style="font-size: 30px; text-align: center;">
   🎬 Zoom no Filme
 </div>
@@ -5,6 +6,10 @@
 <p style="font-size: 16px;">
   Um blog de cinema responsivo e moderno, desenvolvido com foco em design e experiência do usuário, utilizando as últimas tecnologias de frontend.
 </p>
+=======
+# 🎬 Zoom no Filme
+Um blog de cinema responsivo e moderno, desenvolvido com foco em design e experiência do usuário, utilizando as últimas tecnologias de frontend.
+>>>>>>> 309e53105e82fc1171bf862726789d73473be5f8
 
 ![Projeto](./imgs/ZoomCinema.png)
 
